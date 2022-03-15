@@ -1,6 +1,8 @@
 import './App.css';
 import Student from './Student';
 import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [students, setStudents]  = useState([{
@@ -64,7 +66,9 @@ function App() {
   
   return (
     <>
+    <div>
       <Student students ={students}/>
+    </div>
     </>
   );
 }

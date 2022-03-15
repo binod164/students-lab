@@ -9,7 +9,7 @@ const Student = (props) => {
           <p>Bio: {student.bio}</p>
           <Score scores={student.scores}/>
         </div>
-        )}
+      )}
     </>
   )
 }
